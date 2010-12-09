@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+	<name>Syntax Highlighter</name>
+	<package>syntax_highlighter</package>
+	<loadPriority>5</loadPriority>
+	<version>1.0.7</version>
+	<provider>Steve Good</provider>
+	<providerURL>http://stevegood.org/</providerURL>
+	<category>Publishing</category>
+	<settings />
+	<EventHandlers>
+		<eventHandler event="onRenderEnd" component="eventHandlers.MainEventHandler" persist="true" />
+	</EventHandlers>
+	<DisplayObjects />
+</plugin>
